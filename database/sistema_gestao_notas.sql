@@ -91,6 +91,10 @@ INSERT INTO usuarios (nome, email, senha, tipo) VALUES
 ('Carlos Lima', 'carlos.prof@escola.com', '123456', 'professor'),
 ('Fernanda Alves', 'fernanda.prof@escola.com', '123456', 'professor'),
 ('Admin Geral', 'admin@escola.com', 'admin123', 'administrador');
+('Matheus Pereira', 'Matheuspereiraifsp@gmail.com', '1234567', 'professor'),
+
+
+
 
 -- Cursos
 INSERT INTO cursos (nome, descricao) VALUES
