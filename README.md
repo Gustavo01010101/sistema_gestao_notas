@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Backend - Sistema de Gestão de Notas (Flask) - v2
 
 Atualização com:
@@ -64,3 +65,16 @@ INSERT INTO notas (id_aluno_turma, id_disciplina, nota1, nota2) VALUES
 ```
 
 > Lembre-se: para produção, nunca armazene senhas em texto puro no banco e utilize variáveis de ambiente para credenciais.
+=======
+# Sistema de Gestão de Notas de Alunos 
+
+Este projeto contém o script SQL do banco de dados **sistema_gestao_notas**, usado para gerenciar alunos, disciplinas e notas.
+
+## Banco de Dados MySQL
+
+Arquivo: `database/sistema_gestao_notas.sql`
+
+### Como importar no MySQL
+```bash
+mysql -u root -p < database/sistema_gestao_notas.sql
+>>>>>>> e58cd431652f1c4359963977e2e212db60216595
